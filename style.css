@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  scroll-behavior: smooth;
 }
 .container {
   width: 93%;
@@ -19,8 +20,43 @@ h1 {
 .half-width {
   width: 50%;
 }
-section {
-  margin-bottom: 100px;
+
+/* Main menu */
+#main-menu {
+  margin-top: -20px;
+}
+.menu-wrap {
+  justify-content: space-around;
+}
+.left-logo {
+  width: 30%;
+}
+.left-logo h1 {
+  font-size: 35px !important;
+}
+.left-logo h1 span {
+  color: #14b9fb;
+}
+.right-nav {
+  width: 50%;
+}
+.right-nav ul {
+  list-style: none;
+  margin-top: 30px;
+}
+.right-nav ul li {
+  display: inline-block;
+}
+.right-nav ul li a {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 19px;
+  color: #333;
+  font-weight: 600;
+}
+.right-nav ul li a:hover {
+  color: #0578a5;
+  transition: 0.3s;
 }
 /* Hero section */
 #hero-section {
@@ -54,6 +90,7 @@ section {
   width: 100%;
   margin-left: 50px;
 }
+
 /* About US */
 #about {
   margin-top: 100px;
@@ -91,6 +128,7 @@ section {
 .right-content a:hover {
   background-image: linear-gradient(to left, #0578a5, #24c1ff);
 }
+
 /* Recipe */
 #recipe {
   margin-bottom: 100px;
@@ -130,22 +168,7 @@ section {
   letter-spacing: 0.9px;
   line-height: 26px;
 }
-/* Footer */
-footer {
-  background-color: #0b0d17;
-  color: #fff;
-  padding: 20px 0 70px 0;
-}
-footer h2 {
-  text-align: center;
-  font-size: 30px;
-}
-footer h2 span {
-  color: #14b9fb;
-}
-footer p {
-  text-align: center;
-}
+
 /* Testimonial */
 #testimonial {
   background-image: url(img/testimoni-bg.jpg);
@@ -176,4 +199,21 @@ footer p {
 .testimoni-item p {
   color: #727272;
   line-height: 26px;
+}
+
+/* Footer */
+footer {
+  background-color: #0b0d17;
+  color: #fff;
+  padding: 20px 0 70px 0;
+}
+footer h2 {
+  text-align: center;
+  font-size: 30px;
+}
+footer h2 span {
+  color: #14b9fb;
+}
+footer p {
+  text-align: center;
 }
