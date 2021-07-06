@@ -90,3 +90,58 @@ section {
 .right-content a:hover {
   background-image: linear-gradient(to left, #0578a5, #24c1ff);
 }
+/* Recipe */
+#recipe {
+  margin-bottom: 100px;
+}
+#recipe > h2 {
+  font-size: 40px;
+  color: rgb(112, 112, 112);
+  text-align: center;
+}
+#recipe > p {
+  text-align: center;
+  width: 48%;
+  margin: 0 auto;
+  word-spacing: 1.2px;
+  font-size: 16px;
+}
+.recipe-box-wrapper {
+  justify-content: space-around;
+  margin-top: 70px;
+}
+.recipe-item {
+  width: 25%;
+  border: 17px solid rgb(255, 255, 255);
+  border-radius: 25px;
+  box-shadow: 1px 2px 23px 5px #ddd;
+}
+.recipe-item img {
+  width: 100%;
+  border-radius: 20px;
+}
+.recipe-item h2 {
+  margin-top: 22px;
+  color: rgb(51, 51, 51);
+}
+.recipe-item p {
+  color: rgb(99, 99, 99);
+  letter-spacing: 0.9px;
+  line-height: 26px;
+}
+/* Footer */
+footer {
+  background-color: #0b0d17;
+  color: #fff;
+  padding: 20px 0 70px 0;
+}
+footer h2 {
+  text-align: center;
+  font-size: 30px;
+}
+footer h2 span {
+  color: #14b9fb;
+}
+footer p {
+  text-align: center;
+}
